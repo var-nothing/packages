@@ -1,2 +1,21 @@
 (channel
-(version 0))
+(version 0)
+(dependencies
+ (channel
+  (name rrr)
+  (url "https://git.sr.ht/~akagi/rrr")
+  (introduction
+   (make-channel-introduction
+    "794d6e5eb362bfcf81ada12b6a49a0cd55c8e031"
+    (openpgp-fingerprint
+     "FF72 877C 4F21 FC4D 467D  20C4 DCCB 5255 2098 B6C1"))))
+
+ (channel
+  (name flat)
+  (url "https://github.com/flatwhatson/guix-channel.git")
+  (introduction
+   (make-channel-introduction
+    "33f86a4b48205c0dc19d7c036c85393f0766f806"
+    (openpgp-fingerprint
+     "736A C00E 1254 378B A982  7AF6 9DBE 8265 81B6 4490"))))
+))

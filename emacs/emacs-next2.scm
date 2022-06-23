@@ -1,4 +1,4 @@
-(define-module (packages emacs-next2)
+(define-module (emacs emacs-next2)
   #:use-module (guix gexp)
   #:use-module (guix utils)
   #:use-module (guix download)
